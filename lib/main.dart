@@ -26,26 +26,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// class LineWithValuesWidget extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
 
-
-//     return BlocBuilder<LineWithValuesBloc, LineWithValuesState>(
-//       builder: (context, state) {
-//         if (state is LineWithValuesUpdated) {
-//           return CustomPaint(
-//             painter: LineWithValuesPainter(
-//               state.firstLineMinValue,
-//               state.firstLineMaxValue,
-//               state.minValue,
-//               state.maxValue,
-//               state.pointer,
-//             ),
-//           );
-//         }
-//         return Container();
-//       },
-//     );
-//   }
-// }

@@ -1,4 +1,6 @@
 import 'package:bar_creation/bloc/line_values_bloc.dart';
+import 'package:bar_creation/bloc/line_with_values_event.dart';
+import 'package:bar_creation/bloc/line_with_values_state.dart';
 import 'package:bar_creation/line_with_values_painter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
